@@ -479,6 +479,10 @@
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
 
+
+    <!-- Turbulence effect -->
+    <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
+
     <!-- These are system packages exempted from privacy indicator -->
     <string-array name="config_locationExtraPackageNames" translatable="false">
         <!-- ImsService -->
